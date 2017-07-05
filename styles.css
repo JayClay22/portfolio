@@ -1,0 +1,8 @@
+body {
+    background-color: blue;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 36px;
+}
