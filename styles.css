@@ -3,6 +3,14 @@ body {
 }
 nav a {
     text-decoration: none;
-    color: #333;
+    color: black;
+    font-size: 36px;
+}
+body {
+    background-color: blue;
+}
+nav a {
+    text-decoration: none;
+    color: black;
     font-size: 36px;
 }
