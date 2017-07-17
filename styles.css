@@ -57,3 +57,7 @@ a{
 .statechamp{
     width: 450px;
 }
+
+#success {
+    display: none;
+}
