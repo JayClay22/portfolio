@@ -16,10 +16,10 @@ nav a {
 }
 h1 {
     text-align: center;
-    color: black;
+    color: white;
 }
 h3 {
-    color: black;
+    color: white;
 }
 ul {
     list-style-type: none;
@@ -48,4 +48,12 @@ dt{
 
 a{
     color: #fff;
+}
+
+.cultural{
+    width: 450px;
+}
+
+.statechamp{
+    width: 450px;
 }
