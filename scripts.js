@@ -20,5 +20,5 @@ function submitContactform() {
         $(this).fadeOut();
         $("#success").fadeIn();
         //alert('Thank you for submitting the form');
-    }
+       }
 }
