@@ -1,0 +1,55 @@
+body {
+  background-color: blue; }
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 36px; }
+
+body {
+  background-color: blue; }
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 36px; }
+
+h1 {
+  text-align: center;
+  color: white; }
+
+h3 {
+  color: white; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  text-align: center;
+  color: black; }
+
+.middleschool {
+  width: 500px; }
+
+.child-bball {
+  width: 55%; }
+
+p {
+  color: white; }
+
+dt {
+  color: #fff; }
+
+a {
+  color: #fff; }
+
+.cultural {
+  width: 450px; }
+
+.statechamp {
+  width: 450px; }
+
+#success {
+  display: none; }
