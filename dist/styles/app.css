@@ -1,13 +1,10 @@
 body {
-  background-color: blue; }
+  background-image: url("../../images/matrix.gif"); }
 
 nav a {
   text-decoration: none;
   color: black;
   font-size: 36px; }
-
-body {
-  background-color: blue; }
 
 nav a {
   text-decoration: none;
@@ -16,10 +13,54 @@ nav a {
 
 h1 {
   text-align: center;
-  color: white; }
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto; }
 
 h3 {
-  color: white; }
+  background-color: green; }
+
+.young-basketball {
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto; }
+  .young-basketball img {
+    width: 100%; }
+
+.young-college {
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto; }
+  .young-college img {
+    width: 100%; }
+
+.young-elem {
+  color: white;
+  border-radius: 500px;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto; }
+  .young-elem img {
+    width: 100%; }
+
+.great-memories {
+  color: white;
+  border-radius: 500px;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto; }
+  .great-memories img {
+    width: 100%; }
 
 ul {
   list-style-type: none;
