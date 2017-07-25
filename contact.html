@@ -2,66 +2,74 @@
 <html lang="en">
 
 <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/css/bootstrap.min.js" ></script>
-    <link rel="stylesheet" href="dist/styles/main.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="dist/styles/main.css">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jordan's Life</title>
-   <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" >
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
-    <link rel="stylesheet" href="dist/styles/main.css">
-</head>
 
-<body>
-    <navigation></navigation>
-    <center>
-        <h1 class="pagetitle">
-            Contact us
-        </h1>
-        <form name="contactForm" id="contactForm" class="styled-form">
-            <input type="email" name="email" placeholder="Email" />
-            <input type="name" name="name" placeholder="Name" />
-            <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
-            <input type="submit" value="Submit" />
-        </form>
-        <div id="success">
-            Thanks for contacting me!
-        </div>
-        <aside id="contact-info">
-            <dl>
-                <dt>Email</dt>
-                <dd><a href="mailto:info@combadi.com" title="Click to send me an email">j.cla98@yahoo.com</a></dd>
-                <dt>Telephone</dt>
-                <dd><a href="tel:00306977447033" title="Click to call me">+1(314) 954-8634</a></dd>
-                <dt>Address</dt>
-                <dd>
-                    <address>
-                        2216 Montgomery<br> Saint Louis<br> 63106
-                        <br> Missouri
-                        <br><br>
-                    </address>
-                </dd>
-                <dd class="social-links">
-                    <a class="fb" href="https://www.facebook.com/" title="Find us on Facebook">Facebook</a>
-                    <a class="tt" href="https://twitter.com/?lang=en" title="Find us on Twitter">Twitter</a>
-                </dd>
-            </dl>
-        </aside>
-        </div>
-    </center>
-</body>
+    <body>
+        <navigation></navigation>
+        <contact-form></contact-form>
+        <center>
+            <h1 class="pagetitle">
+                Contact us
+            </h1>
+
+            <div id="success">
+                Thanks for contacting me!
+            </div>
+            <aside id="contact-info">
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:info@combadi.com" title="Click to send me an email">j.cla98@yahoo.com</a></dd>
+                    <dt>Telephone</dt>
+                    <dd><a href="tel:00306977447033" title="Click to call me">+1(314) 954-8634</a></dd>
+                    <dt>Address</dt>
+                    <dd>
+                        <address>
+                            2216 Montgomery<br> Saint Louis<br> 63106
+                            <br> Missouri
+                            <br><br>
+                        </address>
+                        <div class="container">
+                            <form action="/action_page.php">
+
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                                <label for="country">Country</label>
+                                <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                                <input type="submit" value="Submit">
+
+                            </form>
+                        </div>
+                    </dd>
+                    <dd class="social-links">
+                        <a class="fb" href="https://www.facebook.com/" title="Find us on Facebook">Facebook</a>
+                        <a class="tt" href="https://twitter.com/?lang=en" title="Find us on Twitter">Twitter</a>
+                    </dd>
+                </dl>
+            </aside>
+            </div>
+        </center>
+        <script src="dist/scripts/main.js"></script>
+    </body>
 
 </html>

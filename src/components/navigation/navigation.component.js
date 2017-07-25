@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 
 export class NavigationComponent {
       name = 'Jordan Clay';
+      link = 'http://madnesslabs.net';
+      test() {
+        alert('Hello Me');
+      }
 }
